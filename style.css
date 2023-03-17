@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+	font-family: verdana;
+	margin: 0; 
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 5px 10px #262323;
+	padding: 1em;
+}
+
+.mode {
+	display: flex;
+	justify-content: space-around;
+	min-width: 200px;
+	font-size: 16px;
+}
+
+a {
+	cursor: pointer;
+}
+
+a:hover {
+	color: #0097F6;
+}
+
+a:active{
+	color: #006CB0;
+}
+
+.color-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	background-color: white;
+}
+
+.controls {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	min-width: 250px;
+	min-height: 150px;
+	font-size: 25px;
+	background-color: black;
+	color: white;
+	padding: 1em;
+	border-radius: 10px;
+}
+
+#flip-btn {
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: #007DCB;
+	cursor: pointer; 
+}
+
+#flip-btn:hover{
+	background-color: #009DFF;
+}
+
+#flip-btn:active{
+	background-color: #006CB0;
+}
